@@ -148,8 +148,8 @@ i {
 }
 
 .btn-new { top: 45px;}
-.btn-roll { top: 403px;}
-.btn-hold { top: 467px;}
+.btn-roll { top: 375px;}
+.btn-hold { top: 425px;}
 
 .dice {
     position: absolute;
@@ -160,11 +160,29 @@ i {
 }
 
 #dice-1 {
-    top: 128px;
+    top: 100px;
 }
 
 #dice-2 {
-    top: 248px;
+    top: 220px;
 }
+
+.final-score {
+    position: absolute;
+    left: 50%;
+    top: 480px;
+    transform: translateX(-50%);
+    width: 160px;
+    padding: 10px;
+    font-family: 'Lato';
+    text-align: center;
+    color: #555;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.final-score:focus { outline: none; }
+
 .winner { background-color: #f7f7f7; }
 .winner .player-name { font-weight: 300; color: #EB4D4D; }
